@@ -56,7 +56,7 @@ export const projectsData = [
     description:
       "This Application give context of the comments from Hacker News Posts from URL.",
     tags: ["Next.js", "Cloudflare", "Hono", "Wrangler", "Tailwind", "Typescript"],
-    // imageUrl: caption,
+    imageUrl: "/screenshot.png",
     projectLink: 'https://comment-analyser-hn.vercel.app/',
     githubLink: 'https://github.com/Jaiharan/Comment-Analyser-HN',
   },
@@ -65,7 +65,7 @@ export const projectsData = [
     description:
       "Blog website with CRUD operations using MERN stack Tech & Tools.",
     tags: ["Node.js", "Express.js", "API", "MongoDB", "React", "Javascript"],
-    // imageUrl: discord,
+    imageUrl: "/screenshot.png",
     projectLink: '',
     githubLink: 'https://github.com/Jaiharan/Blog-frontend',
   },
@@ -74,7 +74,7 @@ export const projectsData = [
     description:
       "This Application detects objects from video stream using tensorflow. ",
     tags: ["Next.js", "Tailwind", "tensorflow", "Webcam", "object detection", "Javascript"],
-    // imageUrl: ecomImg,
+    imageUrl: "/screenshot.png",
     projectLink: '',
     githubLink: 'https://github.com/Jaiharan/object-detection',
   },
@@ -83,7 +83,7 @@ export const projectsData = [
     description:
       "This Application is a Video Call Web App using WebRTC. ",
     tags: ["React.js", "Tailwind", "Webrtc", "socket.io", "Javascript", "Node.js"],
-    // imageUrl: landingPage,
+    imageUrl: "/screenshot.png",
     projectLink: '',
     githubLink: 'https://github.com/Jaiharan/VideoCall_App',
   },

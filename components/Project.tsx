@@ -52,7 +52,7 @@ export default function Project({
           </ul>
 
           <div className=" my-6 flex items-center justify-start gap-3">
-            <a target="_blank" href={githubLink === '' ? "https://github.com/Jaiharan/" : githubLink} className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 outline-none rounded-lg focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">Github</a>
+            <a target="_blank" href={githubLink} className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 outline-none rounded-lg focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">Github</a>
             <a target="_blank" href={projectLink} className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 outline-none rounded-lg focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">Live</a>
           </div>
         </div>
