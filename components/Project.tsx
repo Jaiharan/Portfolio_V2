@@ -59,6 +59,8 @@ export default function Project({
 
         <Image
           src={imageUrl}
+          width={1000}
+          height={1000}
           alt="Project I worked on"
           quality={95}
           className="absolute hidden sm:block top-[4rem] -right-40 w-[28.25rem] rounded-t-lg shadow-2xl

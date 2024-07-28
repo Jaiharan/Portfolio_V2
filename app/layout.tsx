@@ -13,7 +13,6 @@ import localFont from "next/font/local";
 const myFont = localFont({
   src: "./CalSans-SemiBold.woff2"
 });
-// import ThemeSwitch from '@/components/ThemeSwitch'
 
 const inter = Inter({ subsets: ['latin'] })
 
