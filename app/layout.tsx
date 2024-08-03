@@ -6,6 +6,7 @@ import { Toaster } from 'react-hot-toast'
 import Footer from '@/components/Footer'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import ThemeContextProvider from '@/context/theme-context'
+import { Analytics } from '@vercel/analytics/react'
 
 import localFont from "next/font/local";
 
@@ -44,7 +45,7 @@ export default function RootLayout({
           </ActiveSectioContextProvider>
           <ThemeSwitch />
         </ThemeContextProvider>
-
+        <Analytics />
       </body>
     </html>
   )
